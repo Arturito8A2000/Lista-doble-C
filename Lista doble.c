@@ -75,7 +75,7 @@ return 0;
 int MenuPrincipal(){
     int opcionMenu;
 	do{
-		printf("\n|     ° LISTA DOBLEMENTE LIGADA °     |");
+		printf("\n|     Â° LISTA DOBLEMENTE LIGADA Â°     |");
 		printf("\n|-------------------------------------|");
 		printf("\n| 1) Indicar si la lista esta vacia   |");
 		printf("\n| 2) Desplegar lista                  |");
@@ -129,7 +129,7 @@ void insertarNodoDespues(){
     int x, i, a=longitud();
 	nodo* nuevo = (nodo*)malloc(sizeof(nodo));
 	//nodo *aux=primero;
-	printf("\n Ingrese la posición (se asigna despues de la posicion ingresada)\n:: NOTA: Conteo realizado desde 1: ");
+	printf("\n Ingrese la posiciÃ³n (se asigna despues de la posicion ingresada)\n:: NOTA: Conteo realizado desde 1: ");
 	scanf("%d", &x);
 	printf(" Ingrese el dato que contendra el nuevo Nodo: ");
 	scanf("%d", &nuevo->dato);
